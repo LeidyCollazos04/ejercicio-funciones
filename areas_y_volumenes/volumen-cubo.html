@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volumen del cubo</title>
+    <link rel="shortcut icon" href="assets/img/cubo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones.css">
+</head>
+<body>
+    <header>
+        <h1>Volumen del cubo</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Figuras planas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/area-cometa.html">Area cometa</a></li>
+                            <li><a class="dropdown-item" href="/area-circulo.html">Area círculo</a></li>
+                            <li><a class="dropdown-item" href="/area-cuadrado.html">Area cuadrado</a></li>
+                            <li><a class="dropdown-item" href="/area-paralelogramo.html">Area paralelogramo</a></li>
+                            <li><a class="dropdown-item" href="/area-rectangulo.html">Area rectángulo</a></li>
+                            <li><a class="dropdown-item" href="/area-rombo.html">Area rombo</a></li>
+                            <li><a class="dropdown-item" href="/area-trapecio.html">Area trapecio</a></li>
+                            <li><a class="dropdown-item" href="/area-triangulo.html">Area triángulo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Figuras sólidas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/volumen-cilindro.html">Volumen cilindro</a></li>
+                            <li><a class="dropdown-item" href="/volumen-cono.html">Volumen cono</a></li>
+                            <li><a class="dropdown-item" href="/volumen-cubo.html">Volumen cubo</a></li>
+                            <li><a class="dropdown-item" href="/volumen-esfera.html">Volumen esfera</a></li>
+                            <li><a class="dropdown-item" href="/volumen-paralelepipedo.html">Volumen paralelepípedo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <aside>
+                    <img class="imgs" src="assets/img/volumen_cubo.png" alt="imagen">
+                </aside>
+                <div class="container text-center">
+                    <label for="lado" class="form-label">Ingrese el lado del cubo: </label>
+                    <input type="text" class="form-control" id="lado" name="lado">
+
+                    <button type="button" class="btn btn-outline-primary" onclick="volumen_cubo()">Calcular</button>
+
+                    <p id="vol_cubo"></p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2>Contacto</h2>
+        <ul>
+            <li>
+                <img class="logo-enlace" src="assets/img/whatsapp.png" alt="Icono">
+                <a href="https://wa.me/573207384367">WhatsApp</a>
+            </li>
+            <li>
+                <img class="logo-enlace" src="assets/img/correo.png" alt="Icono">
+                <a href="mailto:leidycollazos04@gmail.com">Correo electrónico</a>
+            </li>
+            <li>
+                <img class="logo-enlace" src="assets/img/github.png" alt="Icono">
+                <a href="https://github.com/LeidyCollazos04">GitHub</a>
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-volumen.js"></script>
+</body>
+</html>
